@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5CD669A291E661C008CAA22 /* Eksamen_PG5601_1001App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD6699291E661C008CAA22 /* Eksamen_PG5601_1001App.swift */; };
-		C5CD669C291E661C008CAA22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD669B291E661C008CAA22 /* ContentView.swift */; };
+		C54BE7C7292D50BD00F98B7B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54BE7C6292D50BD00F98B7B /* SettingsView.swift */; };
+		C57B30F32930CE3F000364FD /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57B30F22930CE3F000364FD /* GroupView.swift */; };
+		C57B30F52930DEA7000364FD /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57B30F42930DEA7000364FD /* FamilyView.swift */; };
+		C57B30F72930DFAF000364FD /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57B30F62930DFAF000364FD /* OrderView.swift */; };
+		C57B30FA2930E181000364FD /* GenusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57B30F92930E181000364FD /* GenusView.swift */; };
+		C57B30FE29321D5C000364FD /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57B30FD29321D5C000364FD /* NutritionView.swift */; };
+		C57B3100293236DD000364FD /* FruitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57B30FF293236DD000364FD /* FruitAnimationView.swift */; };
+		C57B310229323C41000364FD /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57B310129323C41000364FD /* LogView.swift */; };
+		C57B310C2932A71D000364FD /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57B310B2932A71D000364FD /* TimeView.swift */; };
+		C5CD669A291E661C008CAA22 /* FruitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD6699291E661C008CAA22 /* FruitApp.swift */; };
 		C5CD669E291E661F008CAA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CD669D291E661F008CAA22 /* Assets.xcassets */; };
 		C5CD66A1291E661F008CAA22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CD66A0291E661F008CAA22 /* Preview Assets.xcassets */; };
+		C5CD66B5291E7713008CAA22 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD66B4291E7713008CAA22 /* DataModel.swift */; };
+		C5CD66B9291E7850008CAA22 /* FruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD66B8291E7850008CAA22 /* FruitView.swift */; };
+		C5CD66BB291E78A5008CAA22 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD66BA291E78A5008CAA22 /* JsonModel.swift */; };
+		C5CD66BD291E793F008CAA22 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD66BC291E793F008CAA22 /* MainView.swift */; };
+		C5CD66BF291E9F19008CAA22 /* FruitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD66BE291E9F19008CAA22 /* FruitRow.swift */; };
+		C5CD66C1291EA491008CAA22 /* FruitInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD66C0291EA491008CAA22 /* FruitInfoPage.swift */; };
+		C5CD66C4291EC4F5008CAA22 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5CD66C2291EC4F5008CAA22 /* Database.xcdatamodeld */; };
+		C5F57EAA2937C4E8000F86CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5F57EA92937C4E8000F86CC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C54BE7C6292D50BD00F98B7B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C57B30F22930CE3F000364FD /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		C57B30F42930DEA7000364FD /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		C57B30F62930DFAF000364FD /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		C57B30F92930E181000364FD /* GenusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenusView.swift; sourceTree = "<group>"; };
+		C57B30FD29321D5C000364FD /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		C57B30FF293236DD000364FD /* FruitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitAnimationView.swift; sourceTree = "<group>"; };
+		C57B310129323C41000364FD /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		C57B310B2932A71D000364FD /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		C5CD6696291E661C008CAA22 /* Eksamen-PG5601-1001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eksamen-PG5601-1001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5CD6699291E661C008CAA22 /* Eksamen_PG5601_1001App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eksamen_PG5601_1001App.swift; sourceTree = "<group>"; };
-		C5CD669B291E661C008CAA22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5CD6699291E661C008CAA22 /* FruitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitApp.swift; sourceTree = "<group>"; };
 		C5CD669D291E661F008CAA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5CD66A0291E661F008CAA22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5CD66B4291E7713008CAA22 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C5CD66B8291E7850008CAA22 /* FruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitView.swift; sourceTree = "<group>"; };
+		C5CD66BA291E78A5008CAA22 /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		C5CD66BC291E793F008CAA22 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C5CD66BE291E9F19008CAA22 /* FruitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRow.swift; sourceTree = "<group>"; };
+		C5CD66C0291EA491008CAA22 /* FruitInfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitInfoPage.swift; sourceTree = "<group>"; };
+		C5CD66C3291EC4F5008CAA22 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		C5F57EA92937C4E8000F86CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +83,10 @@
 		C5CD6698291E661C008CAA22 /* Eksamen-PG5601-1001 */ = {
 			isa = PBXGroup;
 			children = (
-				C5CD6699291E661C008CAA22 /* Eksamen_PG5601_1001App.swift */,
-				C5CD669B291E661C008CAA22 /* ContentView.swift */,
+				C5F57EA92937C4E8000F86CC /* README.md */,
+				C5CD6699291E661C008CAA22 /* FruitApp.swift */,
+				C5CD66AE291E6C1F008CAA22 /* Views */,
+				C5CD66AD291E6C16008CAA22 /* Data */,
 				C5CD669D291E661F008CAA22 /* Assets.xcassets */,
 				C5CD669F291E661F008CAA22 /* Preview Content */,
 			);
@@ -65,6 +99,36 @@
 				C5CD66A0291E661F008CAA22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5CD66AD291E6C16008CAA22 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD66B4291E7713008CAA22 /* DataModel.swift */,
+				C5CD66BA291E78A5008CAA22 /* JsonModel.swift */,
+				C5CD66C2291EC4F5008CAA22 /* Database.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C5CD66AE291E6C1F008CAA22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD66BC291E793F008CAA22 /* MainView.swift */,
+				C5CD66B8291E7850008CAA22 /* FruitView.swift */,
+				C5CD66BE291E9F19008CAA22 /* FruitRow.swift */,
+				C5CD66C0291EA491008CAA22 /* FruitInfoPage.swift */,
+				C57B30F22930CE3F000364FD /* GroupView.swift */,
+				C57B30F42930DEA7000364FD /* FamilyView.swift */,
+				C57B30F62930DFAF000364FD /* OrderView.swift */,
+				C57B30F92930E181000364FD /* GenusView.swift */,
+				C54BE7C6292D50BD00F98B7B /* SettingsView.swift */,
+				C57B30FD29321D5C000364FD /* NutritionView.swift */,
+				C57B30FF293236DD000364FD /* FruitAnimationView.swift */,
+				C57B310129323C41000364FD /* LogView.swift */,
+				C57B310B2932A71D000364FD /* TimeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F57EAA2937C4E8000F86CC /* README.md in Resources */,
 				C5CD66A1291E661F008CAA22 /* Preview Assets.xcassets in Resources */,
 				C5CD669E291E661F008CAA22 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +202,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5CD669C291E661C008CAA22 /* ContentView.swift in Sources */,
-				C5CD669A291E661C008CAA22 /* Eksamen_PG5601_1001App.swift in Sources */,
+				C5CD66B9291E7850008CAA22 /* FruitView.swift in Sources */,
+				C5CD66BB291E78A5008CAA22 /* JsonModel.swift in Sources */,
+				C57B30F32930CE3F000364FD /* GroupView.swift in Sources */,
+				C5CD66C4291EC4F5008CAA22 /* Database.xcdatamodeld in Sources */,
+				C57B3100293236DD000364FD /* FruitAnimationView.swift in Sources */,
+				C57B310229323C41000364FD /* LogView.swift in Sources */,
+				C57B30F52930DEA7000364FD /* FamilyView.swift in Sources */,
+				C54BE7C7292D50BD00F98B7B /* SettingsView.swift in Sources */,
+				C5CD66C1291EA491008CAA22 /* FruitInfoPage.swift in Sources */,
+				C57B30FA2930E181000364FD /* GenusView.swift in Sources */,
+				C5CD669A291E661C008CAA22 /* FruitApp.swift in Sources */,
+				C5CD66BF291E9F19008CAA22 /* FruitRow.swift in Sources */,
+				C57B30F72930DFAF000364FD /* OrderView.swift in Sources */,
+				C57B310C2932A71D000364FD /* TimeView.swift in Sources */,
+				C5CD66BD291E793F008CAA22 /* MainView.swift in Sources */,
+				C5CD66B5291E7713008CAA22 /* DataModel.swift in Sources */,
+				C57B30FE29321D5C000364FD /* NutritionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +419,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5CD66C2291EC4F5008CAA22 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5CD66C3291EC4F5008CAA22 /* Database.xcdatamodel */,
+			);
+			currentVersion = C5CD66C3291EC4F5008CAA22 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C5CD668E291E661C008CAA22 /* Project object */;
 }
